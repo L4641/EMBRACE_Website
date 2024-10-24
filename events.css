@@ -1,0 +1,384 @@
+@charset "UTF-8";
+
+/* Event -- Top Header */
+.event .header {
+	display: table;
+	width: 100%;
+	margin-bottom: 0%;
+	margin-top: .5%;
+}
+.event .headerCell {
+	display: table-cell;
+	width: 24%;
+	padding-bottom: 1.5%;
+}
+.event .cell1 {
+	background-color: #E1EFF2;
+	color: #D1A023;
+}
+.event .cell2 {
+	background-color: #90C4CF;
+	color: #265642;
+}
+.event .cell3 {
+	background-color: #E1EFF2;
+	color: #D1A023;
+}
+.event .cell4 {
+	background-color: #FCEDD3;
+	color: #4793A3;
+}
+.event .headerCell img {
+	width: 50%;
+	margin-left: 50%;
+	transform: translate(-50%); 
+}
+.event .headerCell h2 {
+	margin-top: 13%;
+	margin-bottom: 2%;
+	text-align: center;
+	font-weight: 1000;
+	-webkit-text-stroke-width: .65px;
+	-webkit-text-stroke-color: #ffffff;
+	font-family: Verdana;
+}
+.event .headerCell h4 {
+	text-align: center;
+	margin-left: 22%;
+	margin-right: 22%;
+}
+.event .headerCell a {
+	color: #234951;
+	line-height: 145%;
+	font-size: 120%;
+	font-family: Helvetica;
+	font-weight: 100;
+}
+.event h1 {
+	text-align: center;
+	font-size: 500%;
+	position: absolute;
+	margin-top: 13%;
+	margin-left: 48%;
+	transform: translate(-51%, -50%);
+	white-space: nowrap;
+	z-index: 1;
+	text-shadow:  1.5px 1.5px 1px #e6e6e6, 5px 5px 4px #777A65;
+}
+.event .firstHalf {
+	color: #ffffff;
+}
+.event .secondHalf {
+	color: #4793A3;
+}
+
+
+
+
+/* Event -- Bottom Content */
+.event table {
+	width: 100%;
+	margin-left: 50%;
+	transform: translate(-50%);
+	padding-top: 0%;
+	border-spacing: 0px;
+	color: #000000;
+	margin-top: -.65%;
+	margin-bottom: 3%;
+}
+.event tr {
+	width: 100%;
+	padding-top: 0%;
+}
+.event td {
+	width: 50%;
+}
+.event .eventH2 {
+	font-weight: bold;
+	line-height: 120%;
+	margin-bottom: 1%;
+	text-align: center;
+	font-size: 170%;
+	margin-top: .75%;
+}
+.event .eventH3 {
+	font-weight: normal;
+	line-height: 130%;
+	margin-bottom: 1%;
+	text-align: center;
+	font-size: 130%;
+	margin-top: -1%;
+}
+.event .eventH4 {
+	font-weight: normal;
+	line-height: 130%;
+	margin-bottom: 1%;
+	text-align: center;
+	font-size: 115%;	
+}
+.event tr p {
+	line-height: 160%;
+	font-size: 105%;
+	text-align: justify;
+	display: block;
+	margin-bottom: .75%;
+}
+.event tr img {
+	width: 75%;
+	aspect-ratio: 1192/796;
+}
+.row1 .eventH2, .row1 .eventH3, .row1 .eventH4, .event .cellRight p {
+	margin-left: 4%;
+	margin-right: 35%;
+}
+.row2 .eventH2, .row2 .eventH3, .row2 .eventH4, .event .cellLeft p {
+	margin-left: 35%;
+	margin-right: 4%;
+}
+.event .cellLeft img {
+	margin-left: 25%;
+}
+.event .cellRight img {
+	margin-right: 25%;
+}
+.event .row1 {
+	background-color: #E1EFF2;
+}
+.event .row2 {
+	background-color: #FFFBCC;
+}
+.event table a{
+	color: #000000;
+}
+.event table .videoLink {
+	color: #3D9BE9;
+}
+.event {
+	margin-bottom: -2.75%;
+}
+
+
+
+@media only screen and (max-width: 90em) {
+	.event .eventH2 {
+		line-height: 120%;
+		margin-bottom: 1%;
+		font-size: 165%;
+		margin-top: .75%;
+	}
+	.event .eventH3 {
+		line-height: 130%;
+		margin-bottom: 1%;
+		font-size: 130%;
+		margin-top: -1%;
+	}
+	.event .eventH4 {
+		line-height: 130%;
+		margin-bottom: 1%;
+		font-size: 115%;	
+	}
+	.event tr p {
+		line-height: 160%;
+		font-size: 100%;
+		display: block;
+		margin-bottom: .75%;
+	}
+	.event tr img {
+		width: 80%;
+		aspect-ratio: 1192/796;
+	}
+	
+	
+	
+	.row1 .eventH2, .row1 .eventH3, .row1 .eventH4, .event .cellRight p {
+		margin-left: 4%;
+		margin-right: 30%;
+	}
+	.row2 .eventH2, .row2 .eventH3, .row2 .eventH4, .event .cellLeft p {
+		margin-left: 30%;
+		margin-right: 4%;
+	}
+	.event .cellLeft img {
+		margin-left: 20%;
+	}
+	.event .cellRight img {
+		margin-right: 20%;
+	}
+}
+
+
+
+
+
+@media only screen and (max-width: 83em) {
+	.event .eventH2 {
+		line-height: 120%;
+		margin-bottom: 1%;
+		font-size: 150%;
+		margin-top: .75%;
+	}
+	.event .eventH3 {
+		line-height: 130%;
+		margin-bottom: 1%;
+		font-size: 125%;
+		margin-top: -1%;
+	}
+	.event .eventH4 {
+		line-height: 130%;
+		margin-bottom: 1%;
+		font-size: 110%;	
+	}
+	.event tr p {
+		line-height: 160%;
+		font-size: 95%;
+		display: block;
+		margin-bottom: .75%;
+	}
+	.event tr img {
+		width: 85%;
+		aspect-ratio: 1192/796;
+	}
+	
+	
+	
+	.row1 .eventH2, .row1 .eventH3, .row1 .eventH4, .event .cellRight p {
+		margin-left: 4%;
+		margin-right: 25%;
+	}
+	.row2 .eventH2, .row2 .eventH3, .row2 .eventH4, .event .cellLeft p {
+		margin-left: 25%;
+		margin-right: 4%;
+	}
+	.event .cellLeft img {
+		margin-left: 15%;
+	}
+	.event .cellRight img {
+		margin-right: 15%;
+	}
+}
+
+
+
+@media only screen and (max-width: 75em) {
+	.event .headerCell img {
+		width: 75%;
+		margin-left: 50%;
+		transform: translate(-50%); 
+	}
+	.event .headerCell h4 {
+		display: none;
+	}
+	.event h1 {
+		font-size: 450%;
+		margin-top: 14.5%;
+		white-space: nowrap;
+	}
+		
+}
+
+
+@media only screen and (max-width: 70em) {
+	.event .eventH2 {
+		line-height: 120%;
+		margin-bottom: 1%;
+		font-size: 150%;
+		margin-top: .75%;
+	}
+	.event .eventH3 {
+		line-height: 130%;
+		margin-bottom: 1%;
+		font-size: 125%;
+		margin-top: -1%;
+	}
+	.event .eventH4 {
+		line-height: 130%;
+		margin-bottom: 1%;
+		font-size: 110%;	
+	}
+	.event tr p {
+		line-height: 160%;
+		font-size: 95%;
+		display: block;
+		margin-bottom: .75%;
+	}
+	.event tr img {
+		width: 85%;
+		aspect-ratio: 1192/796;
+	}
+		
+	
+	.row1 .eventH2, .row1 .eventH3, .row1 .eventH4, .event .cellRight p {
+		margin-left: 4%;
+		margin-right: 20%;
+	}
+	.row2 .eventH2, .row2 .eventH3, .row2 .eventH4, .event .cellLeft p {
+		margin-left: 20%;
+		margin-right: 4%;
+	}
+	.event .cellLeft img {
+		margin-left: 9%;
+		margin-right: 6%;
+	}
+	.event .cellRight img {
+		margin-left: 6%;
+		margin-right: 9%;
+	}
+}
+
+
+
+@media only screen and (max-width: 55em) {	
+	.event .headerCell img {
+		width: 75%;
+		margin-left: 50%;
+		transform: translate(-50%); 
+	}
+	.event .headerCell h4 {
+		display: none;
+	}
+	.event h1 {
+		font-size: 395%;
+		margin-top: 15%;
+		white-space: nowrap;
+	}
+	.event .headerCell h2 {
+		font-size: 120%;
+	}
+	
+	
+	.row1 .eventH2, .row1 .eventH3, .row1 .eventH4, .event .cellRight p {
+		margin-left: 4%;
+		margin-right: 10%;
+	}
+	.row2 .eventH2, .row2 .eventH3, .row2 .eventH4, .event .cellLeft p {
+		margin-left: 10%;
+		margin-right: 4%;
+	}
+}
+
+
+
+@media only screen and (max-width: 37em) {	
+	.event .headerCell img {
+		width: 75%;
+		margin-left: 50%;
+		transform: translate(-50%); 
+		margin-bottom: 10%;
+	}
+	.event .headerCell h4 {
+		display: none;
+	}
+	.event h1 {
+		font-size: 300%;
+		margin-top: 18%;
+		white-space: wrap;
+	}
+	.event .headerCell h2 {
+		font-size: 105%;
+		margin-bottom: 10%;
+	}
+	
+	
+}
+
+

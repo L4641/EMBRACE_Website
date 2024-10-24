@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+/* Learning Center -- Top Part styles */
+.learningCenter {
+	margin-left: 18%;
+	margin-right: 18%;
+}
+.learningCenter h1 {
+	text-align: center;
+	font-size: 320%;
+	margin-top: 6%;
+	margin-bottom: 4%;
+}
+.learningCenter .GLEIntro {
+	font-size: 125%;
+	line-height: 200%;
+	margin-bottom: 4%;
+}
+.learningCenter a {
+	color: #000000;
+}
+.learningCenter iframe {
+	aspect-ratio: 16/9;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+/* Learning Center -- bottom video gallery */
+.learningCenter h2 {
+	text-align: center;
+	font-size: 200%;
+	margin-top: 4%;
+	margin-bottom: 2%;
+	font-weight: bold;
+}
+.learningCenter .flexBox {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+	grid-gap: 10px;
+	align-items: stretch;
+	margin-top: 4%;
+	margin-bottom: 5%;
+}
+.learningCenter .flexRow {
+	margin-bottom: 0%;
+	padding-bottom: 0%;
+}
+.learningCenter .flexCell {
+	margin-bottom: 0%;
+	padding-bottom: 0%;
+}
+.learningCenter .GLEVideo {
+    width: 100%;
+    margin-left: 0%;
+    aspect-ratio: 16/9;
+}
+
+
+@media only screen and (max-width: 66em) {
+
+}
+
+
+
+@media only screen and (max-width: 45em) {	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

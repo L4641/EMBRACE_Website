@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>EMBRACE Home Here</title>
+		<meta charset="utf-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="general.css" rel="stylesheet">
+		<link href="aboutUs.css" rel="stylesheet">
+		<link rel="icon" type="image/x-icon" href="images/logos/embraceLogoTransparent.png">
+	</head>
+	
+	<body>
+		<header>
+		  <h1 class="invisible">Home</h1>
+		</header>
+		
+		<nav class="compSize">
+			<ul>
+			  <li class="logo"><a href="index.html"><img src="images/logos/embraceLogoTransparent.png" alt="EMBRACE Logo" width="76" height="78"></a></li>
+			  <li class="home"><a href="index.html">EMBRACE</a></li>
+			  <li class="rightSide"><a href="index.html">Home</a></li>
+			  <li class="rightSide" id="AU" onmouseover="aboutUsTrue(); dropDown()" 
+			  	onmouseout="aboutUsFalse(); setTimeout(hideDropDown, 1000)">
+			  	<a>About Us</a>
+			  	<ul class="subNav" id="subNav">
+			  		<li><a href="ourStory.html">Our Story</a></li>
+					<li><a href="ourTeam.html">Our Team</a></li>
+					<li><a href="advisors.html">Advisors</a></li>
+					<li><a href="sponsors.html">Sponsors</a></li>
+			  	</ul>
+			  	</li>			  
+			  <li class="rightSide"><a href="events.html">Events</a></li>
+			  <li class="rightSide"><a href="learningCenter.html">Learning Center</a></li>
+			</ul>						
+		</nav>
+		
+		<nav class="phoneSize">
+			<ul>
+			  <li class="logo"><a href="index.html"><img src="images/logos/embraceLogoTransparent.png" alt="EMBRACE Logo" width="76" height="78"></a></li>
+			  <li class="home"><a href="index.html">EMBRACE</a></li>
+			  <li class="rightSide"><button onclick="displayNav()"><img id="hamburger" src="images/home/hamburgerIcon.webp"></button></li>
+			</ul>
+		</nav>
+		
+		<div class="phoneSize phoneNav" id="phoneNav">
+			<hr>
+			
+			<div class="pageLink">
+				<a href="index.html">Home</a>
+			</div>
+			
+			<hr id="AULine1">
+			
+			<div class="pageLink" id="AU">
+				<button class="dropDown" onclick="displaySubNav()"> 
+					<p>About Us</p> 
+					<img src="images/home/dropdownIcon.png">
+				</button>				
+				<div class="phoneSubNav" id="phoneSubNav">
+					<hr id="AULine2">
+					<a href="ourStory.html">Our Story</a>
+					<hr>
+					<a href="ourTeam.html">Our Team</a>
+					<hr>
+					<a href="advisors.html">Advisors</a>
+					<hr>
+					<a href="sponsors.html">Sponsors</a>
+				</div>
+			</div>
+			<hr>
+			<div class="pageLink">
+				<a href="events.html">Events</a>
+			</div>
+			<hr>
+			<div class="pageLink">
+				<a href="learningCenter.html">Learning Center</a>
+			</div>			
+		</div>
+		
+		<main class="aboutUs ourTeam">		
+			<h1>Meet the Team</h1>
+			<hr>
+			<p>We are a youth team who aims to use our multicultural background and values 
+			<br> to help senior Asian immigrants adapt to their lives in the United States.</p>
+			
+			<div class="flexBox">
+				<div class="flexCell">
+					<img src="images/ourTeam/lillianLiu.png" alt="Lillian Liu Image">
+					<h3> Lillian Liu </h3>
+					<h4> President </h4>
+					<h5> Indian Hill High School </h5>
+					<h5> Class of 2025 </h5>
+				</div>
+				<div class="flexCell">
+					<img src="images/ourTeam/yvonneGao.jpg" alt="Yvonne Gao Image">
+					<h3> Yvonne Gao </h3>
+					<h4> Vice President </h4>
+					<h5> Indian Hill High School </h5>
+					<h5> Class of 2025 </h5>
+				</div>
+				<div class="flexCell">
+					<img src="images/ourTeam/jinmingGu.webp" alt="Jinming Gu Image">
+					<h3> Jinming Gu </h3>
+					<h4> Marketing Team President </h4>
+					<h5> Indian Hill High School </h5>
+					<h5> Class of 2027 </h5>
+				</div>
+				<div class="flexCell">
+					<img src="images/ourTeam/andrewBurghardt.webp" alt="Andrew Burghardt Image">
+					<h3> Andrew Burghardt </h3>
+					<h4> Finance Team President </h4>
+					<h5> Sycamore High School </h5>
+					<h5> Class of 2025 </h5>
+				</div>
+
+				<div class="flexCell">
+					<img src="images/ourTeam/picNotAvailable.PNG" alt="Eric Liu Image">
+					<h3> Eric Liu </h3>
+					<h4> IT Team President </h4>
+					<h5> Indian Hill High School </h5>
+					<h5> Class of 2025 </h5>
+				</div>
+				
+
+
+				<div class="flexCell">
+					<img src="images/ourTeam/clairetteYang.jpg" alt="Clairette Yang Image">
+					<h3> Clairette Yang </h3>
+					<h5> Indian Hill Middle School </h5>
+					<h5> Class of 2028 </h5>
+				</div>
+				<div class="flexCell">
+					<img src="images/ourTeam/irisXu.webp" alt="Iris Xu Image">
+					<h3> Iris Xu </h3>
+					<h5> Indian Hill Middle School </h5>
+					<h5> Class of 2028 </h5>
+				</div>
+				<div class="flexCell">
+					<img src="images/ourTeam/jinmingGu.webp" alt="Jinming Gu Image">
+					<h3> Victor Zhang </h3>
+					<h5> Indian Hill High School </h5>
+					<h5> Class of 2027 </h5>
+				</div>
+				<div class="flexCell">
+					<img src="images/ourTeam/yvetteDetweiler.jpg" alt="Yvette Detweiler Image">
+					<h3> Yvette Detweiler </h3>
+					<h5> Indian Hill High School </h5>
+					<h5> Class of 2025 </h5>
+				</div>
+				<div class="flexCell">
+					<img src="images/ourTeam/picNotAvailable.PNG" alt="Yvonne Gao Image">
+					<h3> Brandon Yang </h3>
+					<h5> Indian Hill High School </h5>
+					<h5> Class of 2025 </h5>
+				</div>
+				<div class="flexCell">
+					<img src="images/ourTeam/picNotAvailable.PNG" alt="Yvonne Gao Image">
+					<h3> Grace Zhang </h3>
+					<h5> Indian Hill High School </h5>
+					<h5> Class of 2027 </h5>
+				</div>
+			</div>
+
+			<h2>Past Members</h2>
+			<div class="flexBox">
+				<div class="flexCell">
+					<img src="images/ourTeam/vivianXu.webp" alt="Vivian Xu Image">
+					<h3> Vivian Xu </h3>
+					<h5> Northwestern University </h5>
+					<h5> Class of 2027 </h5>
+				</div>
+				<div class="flexCell">
+					<img src="images/ourTeam/jesslynGunadi.webp" alt="Jesslyn Gunadi Image">
+					<h3> Jesslyn Gunadi </h3>
+					<h5> University of California, Berkeley </h5>
+					<h5> Class of 2028 </h5>
+				</div>
+				<div class="flexCell">
+					<img src="images/ourTeam/claronWang.webp" alt="Claron Wang Image">
+					<h3> Claron Wang </h3>
+					<h5> Cornell University </h5>
+					<h5> Class of 2028 </h5>
+				</div>
+				<div class="flexCell">
+					<img src="images/ourTeam/alexTran.webp" alt="Alex Tran Image">
+					<h3> Alex Tran </h3>
+					<h5> Purdue University </h5>
+					<h5> Class of 2028 </h5>
+				</div>
+			</div>
+		</main>
+		
+		<footer class="compSize">
+			<div>
+				<h5> Follow Us! </h5> 
+					<span class="verticalLine"></span>
+					<a href="https://www.instagram.com/embracehomehere/">
+						<img src="images/logos/instagram.webp">
+					</a>
+					<span class="verticalLine"></span>
+					<a href="https://www.facebook.com/embracehomeherepage/">
+						<img src="images/logos/facebook.webp">
+					</a>
+					<span class="verticalLine"></span>
+					<a href="https://www.youtube.com/channel/UCYyABcFvhPPuwFg08cDPl_A/videos">
+						<img src="images/logos/youtube.webp">
+					</a>
+					<span class="verticalLine"></span>
+				<h5> Read About Us! </h5>
+					<span class="verticalLine"></span>
+					<a href="https://mp.weixin.qq.com/s/4lWl5Cw0V-eQo0si0boDrQ">
+						<img src="images/logos/weChat.webp">
+					</a>
+					<span class="verticalLine"></span>
+					<a href="https://mp.weixin.qq.com/s/CU_KuZnnPp7T3dC-EwYZQQ">
+						<img src="images/logos/weChat2.webp">
+					</a>
+					<span class="verticalLine"></span>
+				<h5> Contact Us! </h5>
+					<span class="verticalLine"></span>
+					<a href="mailto:embracehomehere@gmail.com">embracehomehere@gmail.com</a>
+			</div>
+			<p>Copyright © EMBRACE 2023 All Rights Reserved | Site developed by Lillian Liu and maintained by the EMBRACE IT Team </p>	
+		</footer>
+		
+		<footer class="phoneSize">
+			<div>
+				<div class="inlineBlock followUs">
+					<h5> Follow Us! </h5> 
+						<span class="verticalLine"></span>
+						<a href="https://www.instagram.com/embracehomehere/">
+							<img src="images/logos/instagram.webp">
+						</a>
+						<span class="verticalLine"></span>
+						<a href="https://www.facebook.com/embracehomeherepage/">
+							<img src="images/logos/facebook.webp">
+						</a>
+						<span class="verticalLine"></span>
+						<a href="https://www.youtube.com/channel/UCYyABcFvhPPuwFg08cDPl_A/videos">
+							<img src="images/logos/youtube.webp">
+						</a>
+						<span class="verticalLine"></span>
+				</div>
+						
+				<div class="inlineBlock readAU">
+					<h5> Read About Us! </h5>
+						<span class="verticalLine"></span>
+						<a href="https://mp.weixin.qq.com/s/4lWl5Cw0V-eQo0si0boDrQ">
+							<img src="images/logos/weChat.webp">
+						</a>
+						<span class="verticalLine"></span>
+						<a href="https://mp.weixin.qq.com/s/CU_KuZnnPp7T3dC-EwYZQQ">
+							<img src="images/logos/weChat2.webp">
+						</a>
+						<span class="verticalLine"></span>
+				</div>
+				
+				<div class="inlineBlock contactUs">
+					<h5> Contact Us! </h5>
+						<span class="verticalLine"></span>
+						<a href="mailto:embracehomehere@gmail.com">embracehomehere@gmail.com</a>
+				</div>
+			</div>
+			<p>Copyright © EMBRACE 2023 All Rights Reserved | Site developed by Lillian Liu and maintained by the EMBRACE IT Team </p>	
+		</footer>
+		
+		<script src="embrace.js"></script>
+	
+	</body>
+</html>

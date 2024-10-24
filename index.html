@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>EMBRACE Home Here</title>
+		<meta charset="utf-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="general.css" rel="stylesheet">
+		<link href="home.css" rel="stylesheet">
+		<link rel="icon" type="image/x-icon" href="images/logos/embraceLogoTransparent.png">
+	</head>
+	
+	<body>
+		<header>
+		  <h1 class="invisible">Home</h1>
+		</header>
+		
+		<nav class="compSize">
+			<ul>
+			  <li class="logo"><a href="index.html"><img src="images/logos/embraceLogoTransparent.png" alt="EMBRACE Logo" width="76" height="78"></a></li>
+			  <li class="home"><a href="index.html">EMBRACE</a></li>
+			  <li class="rightSide"><a href="index.html">Home</a></li>
+			  <li class="rightSide" id="AU" onmouseover="aboutUsTrue(); dropDown()" 
+			  	onmouseout="aboutUsFalse(); setTimeout(hideDropDown, 1000)">
+			  	<a>About Us</a>
+			  	<ul class="subNav" id="subNav">
+			  		<li><a href="ourStory.html">Our Story</a></li>
+					<li><a href="ourTeam.html">Our Team</a></li>
+					<li><a href="advisors.html">Advisors</a></li>
+					<li><a href="sponsors.html">Sponsors</a></li>
+			  	</ul>
+			  	</li>			  
+			  <li class="rightSide"><a href="events.html">Events</a></li>
+			  <li class="rightSide"><a href="learningCenter.html">Learning Center</a></li>
+			</ul>						
+		</nav>
+		
+		<nav class="phoneSize">
+			<ul>
+			  <li class="logo"><a href="index.html"><img src="images/logos/embraceLogoTransparent.png" alt="EMBRACE Logo" width="76" height="78"></a></li>
+			  <li class="home"><a href="index.html">EMBRACE</a></li>
+			  <li class="rightSide"><button onclick="displayNav()"><img id="hamburger" src="images/home/hamburgerIcon.webp"></button></li>
+			</ul>
+		</nav>
+		
+		<div class="phoneSize phoneNav" id="phoneNav">
+			<hr>
+			
+			<div class="pageLink">
+				<a href="index.html">Home</a>
+			</div>
+			
+			<hr id="AULine1">
+			
+			<div class="pageLink" id="AU">
+				<button class="dropDown" onclick="displaySubNav()"> 
+					<p>About Us</p> 
+					<img src="images/home/dropdownIcon.png">
+				</button>				
+				<div class="phoneSubNav" id="phoneSubNav">
+					<hr id="AULine2">
+					<a href="ourStory.html">Our Story</a>
+					<hr>
+					<a href="ourTeam.html">Our Team</a>
+					<hr>
+					<a href="advisors.html">Advisors</a>
+					<hr>
+					<a href="sponsors.html">Sponsors</a>
+				</div>
+			</div>
+			<hr>
+			<div class="pageLink">
+				<a href="events.html">Events</a>
+			</div>
+			<hr>
+			<div class="pageLink">
+				<a href="learningCenter.html">Learning Center</a>
+			</div>			
+		</div>
+
+		<main>
+ 
+			<div class="slideContainer">
+				<div class="slides fade">
+					<img class="imageSlide" src="images/home/pic1.webp" alt="API Picnic Group Picture">					
+				</div>
+				
+				<div class="slides fade">
+					<img class="imageSlide" src="images/home/pic2.webp" alt="Team Talking with Senior Group at the Annual Picnic">					
+				</div>
+				
+				<div class="slides fade">
+					<img class="imageSlide" src="images/home/pic3.webp" alt="Healthcare Seminar Group Photo">					
+				</div>
+				
+				<div class="slides fade">
+					<img class="imageSlide" src="images/home/pic4.webp" alt="Multicultural Music Festival Group Photo">					
+				</div>
+				
+				<div class="slides fade">
+					<img class="imageSlide" src="images/home/pic5.webp" alt="Oral Care Seminar Group Photo">					
+				</div>
+				
+				<div class="slides fade">
+					<img class="imageSlide" src="images/home/pic6.webp" alt="Health Equity Forum From Input to Action Group Photo">					
+				</div>
+				
+				<a class="prev" onclick="plusSlides(-1)">❮</a>
+				<a class="next" onclick="plusSlides(1)">❯</a>
+				
+				<div class="dotContainer">
+					<span class="dot" onclick="currentSlide(1)"></span> 
+					<span class="dot" onclick="currentSlide(2)"></span> 
+					<span class="dot" onclick="currentSlide(3)"></span> 
+					<span class="dot" onclick="currentSlide(4)"></span> 
+					<span class="dot" onclick="currentSlide(5)"></span> 
+					<span class="dot" onclick="currentSlide(6)"></span> 
+				</div>
+				
+			</div>
+			
+			<br>
+			
+	
+			
+			<section>			
+			
+				<table class="missionContainer">
+				  <tr>
+					<td class="headMission"> Our Mission </td> 
+					<td class="textMission"> To improve the well-being of senior Asian immigrants in the United States by bridging 
+					local resources and building a welcoming and supportive community.</td>
+				  </tr>
+				</table>
+				
+				<table class="tableName">
+					<tr>
+						<td class="verticalEmbrace" style="width: 1%">
+							<p class="letterDesign1" onmouseover="E()" id="E">E</p> <br>
+							<p class="letterDesign1" onmouseover="M()" id="M">M</p> <br>
+							<p class="letterDesign1" onmouseover="B()" id="B">B</p> <br>
+							<p class="letterDesign2" onmouseover="R()" id="R">R</p> <br>
+							<p class="letterDesign2" onmouseover="A()" id="A">A</p> <br>
+							<p class="letterDesign2" onmouseover="C()" id="C">C</p> <br>
+							<p class="letterDesign2" onmouseover="E2()" id="E2">E</p> <br>
+						</td>
+						<td class="verticalWords" style="width: 22%">
+							<p class="acronym1" onmouseover="E()" id="e"> mpowering &</p>
+							<p class="acronym1" onmouseover="M()" id="m"> obilizing </p>
+							<p class="acronym1" onmouseover="B()" id="b"> etter </p>
+							<p class="acronym2" onmouseover="R()" id="r"> esilient </p>
+							<p class="acronym2" onmouseover="A()" id="a"> sian </p>
+							<p class="acronym2" onmouseover="C()" id="c"> ommunity </p>
+							<p class="acronym2" onmouseover="E2()" id="e2"> ngagement </p>
+						</td>
+						
+						
+						<td id="Empowering" style="width: 35%">
+							<img src="images/Hover_Pics/1_Empowering.jpg" alt="Senior holding a flower pot" style="width: 25vw;">
+						</td>
+					</tr>
+				</table>
+						
+			</section>
+		
+		</main>
+		
+		<footer class="compSize">
+			<div>
+				<h5> Follow Us! </h5> 
+					<span class="verticalLine"></span>
+					<a href="https://www.instagram.com/embracehomehere/">
+						<img src="images/logos/instagram.webp">
+					</a>
+					<span class="verticalLine"></span>
+					<a href="https://www.facebook.com/embracehomeherepage/">
+						<img src="images/logos/facebook.webp">
+					</a>
+					<span class="verticalLine"></span>
+					<a href="https://www.youtube.com/channel/UCYyABcFvhPPuwFg08cDPl_A/videos">
+						<img src="images/logos/youtube.webp">
+					</a>
+					<span class="verticalLine"></span>
+				<h5> Read About Us! </h5>
+					<span class="verticalLine"></span>
+					<a href="https://mp.weixin.qq.com/s/4lWl5Cw0V-eQo0si0boDrQ">
+						<img src="images/logos/weChat.webp">
+					</a>
+					<span class="verticalLine"></span>
+					<a href="https://mp.weixin.qq.com/s/CU_KuZnnPp7T3dC-EwYZQQ">
+						<img src="images/logos/weChat2.webp">
+					</a>
+					<span class="verticalLine"></span>
+				<h5> Contact Us! </h5>
+					<span class="verticalLine"></span>
+					<a href="mailto:embracehomehere@gmail.com">embracehomehere@gmail.com</a>
+			</div>
+			<p>Copyright © EMBRACE 2023 All Rights Reserved | Site developed by Lillian Liu and maintained by the EMBRACE IT Team </p>	
+		</footer>
+		
+		<footer class="phoneSize">
+			<div>
+				<div class="inlineBlock followUs">
+					<h5> Follow Us! </h5> 
+						<span class="verticalLine"></span>
+						<a href="https://www.instagram.com/embracehomehere/">
+							<img src="images/logos/instagram.webp">
+						</a>
+						<span class="verticalLine"></span>
+						<a href="https://www.facebook.com/embracehomeherepage/">
+							<img src="images/logos/facebook.webp">
+						</a>
+						<span class="verticalLine"></span>
+						<a href="https://www.youtube.com/channel/UCYyABcFvhPPuwFg08cDPl_A/videos">
+							<img src="images/logos/youtube.webp">
+						</a>
+						<span class="verticalLine"></span>
+				</div>
+						
+				<div class="inlineBlock readAU">
+					<h5> Read About Us! </h5>
+						<span class="verticalLine"></span>
+						<a href="https://mp.weixin.qq.com/s/4lWl5Cw0V-eQo0si0boDrQ">
+							<img src="images/logos/weChat.webp">
+						</a>
+						<span class="verticalLine"></span>
+						<a href="https://mp.weixin.qq.com/s/CU_KuZnnPp7T3dC-EwYZQQ">
+							<img src="images/logos/weChat2.webp">
+						</a>
+						<span class="verticalLine"></span>
+				</div>
+				
+				<div class="inlineBlock contactUs">
+					<h5> Contact Us! </h5>
+						<span class="verticalLine"></span>
+						<a href="mailto:embracehomehere@gmail.com">embracehomehere@gmail.com</a>
+				</div>
+			</div>
+			<p>Copyright © EMBRACE 2023 All Rights Reserved | Site developed by Lillian Liu and maintained by the EMBRACE IT Team </p>	
+		</footer>
+		
+		<script src="embrace.js"></script>
+	
+	</body>
+</html>

@@ -1,0 +1,323 @@
+@charset "UTF-8";
+
+/* About Us pages -- title and slideshow */
+.aboutUs h1 {
+	text-align: center;
+	margin-top: 2.5%;
+	margin-bottom: 1%;
+	font-size: 315%;
+	font-family: Verdana;
+}
+.aboutUs .slideContainer {
+	width: 98%;
+	margin-left: 50%;
+	transform: translate(-50%);
+	margin-top: 0%;
+	margin-bottom: 0%;	
+}
+.aboutUs .imageSlide {
+	width: 100%;
+	object-fit: cover;
+	border-radius: 5px;		
+}
+.aboutUs .slideBorder {
+	padding-top: .5%;
+	padding-bottom: .5%;
+	width: 47%;
+	margin-left: 50%;
+	transform: translate(-50%);
+	background-color: #458E9E;
+	border-radius: 10px;
+	box-shadow: 10px 13px #777A65;
+	margin-bottom: 0%;
+}
+.aboutUs .gradient {
+	padding-bottom: 6%;
+	margin-bottom: .5%;
+	background-image: linear-gradient(to bottom, #FFFBCC, #F3BD78);
+}
+
+
+
+
+
+/* Our Story pages */
+.ourStory h3 {
+	text-align: center;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	font-size: 150%;
+	font-family: Verdana;
+}
+.ourStory p {
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: .5%;
+	margin-bottom: 1.5%;
+	line-height: 150%;
+	font-size: 140%;
+	font-family: Helvetica;
+	font-weight: 100;
+}
+.ourStory a {
+	color: #1F484C;
+}
+.ourStory img {
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin-left: 0;
+	aspect-ratio:3000/865;
+	margin-top: 1.5%;
+	margin-bottom: 1.5%;
+}
+
+
+
+
+
+/* Flexbox information*/
+.flexBox {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+	grid-gap: 80px;
+	align-items: stretch;
+	margin-top: 0%;
+	margin-left: 7.5%;
+	margin-right: 7.5%;
+	margin-bottom: 5%;
+}
+.flexCell {
+	margin-bottom: 10%;
+}
+
+
+
+
+
+/* Our Team pages */
+.ourTeam p {
+	text-align: center;
+	font-weight: normal;
+	font-size: 120%;
+	line-height: 130%;	
+	margin-bottom: 5%;
+	margin-top: 3%;
+}
+.aboutUs h2 {
+	text-align: center;
+	margin-top: 2.5%;
+	margin-bottom: 3%;
+	font-size: 215%;
+	font-family: Verdana;
+}
+.ourTeam h3 {
+	padding-left: 0em;
+	padding-right: 0em;
+	margin-top: 5.5%;
+	margin-bottom: 0%;
+	text-align: center;
+	font-size: 170%;
+	font-weight: bold;
+}
+.ourTeam h4 {
+	padding-left: 0em;
+	padding-right: 0em;
+	margin-top: 2%;
+	margin-bottom: 0%;
+	text-align: center;
+	font-size: 170%;
+	font-weight: normal;
+	color: #4793A3;
+}
+.ourTeam h5 {
+	padding-left: 0em;
+	padding-right: 0em;
+	margin-top: 2%;
+	margin-bottom: 0%;
+	text-align: center;
+	font-size: 140%;
+	font-weight: normal;
+}
+.ourTeam img {
+	width: 90%;
+	height: 80%;
+	background-repeat: no-repeat;
+	margin-left: 5%;
+	aspect-ratio: 514/556;
+	margin-top: 1.5%;
+	margin-bottom: 1.5%;
+	border: 7px solid #ffffff;
+	box-shadow: 3px 4px 3px rgb(0, 0, 0, .25);
+}
+.ourTeam hr {
+	border-top: 5px solid black;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 1.5%;
+	margin-bottom: -.5%;
+}
+
+
+
+
+
+/* Advisors pages */
+.advisors .flexContainer {
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-bottom: 9%;
+}
+.advisors h1 {
+	margin-bottom: 1%;
+	margin-top: 3%;
+}
+.advisors hr {
+	border-top: 5px solid black;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 1.5%;
+	margin-bottom: 5%;
+}
+.advisorPlaque {
+	display: block;
+	width: 85%;
+	background-color: #FFDE5F;
+	box-shadow: 7px 7px #DBBA3B;
+	padding-left: 7%;
+	padding-right: 7%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	margin-top: 2%;
+}
+.advisors h3 {
+	padding-left: 0em;
+	padding-right: 0em;
+	margin-top: 5.5%;
+	margin-bottom: 0%;
+	text-align: center;
+	font-size: 150%;
+	font-weight: normal;
+}
+.advisors p {
+	text-align: left;
+	font-weight: normal;
+	font-size: 110%;
+	line-height: 130%;	
+	margin-bottom: 5%;
+	margin-top: 3%;
+}
+.advisors .flexBox img {
+	width: 100%;
+	height: auto;
+	background-repeat: no-repeat;
+	aspect-ratio: 390/450;
+	margin-top: 1.5%;
+	margin-bottom: 1.5%;
+	border-radius: 50%;
+	border: 7px solid #ffffff;
+	box-shadow: 2px 4px 3px rgb(0, 0, 0, .25);
+}
+.advisors {
+	margin-bottom: -2.5%;
+}
+
+
+
+
+/* Sponsors top half -- title and flexbox */
+.sponsors h1 {
+	margin-bottom: 4%;
+}
+.sponsors .flexBox {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+	grid-gap: 15px;
+	align-items: stretch;
+	margin-top: 0%;
+	margin-left: 7%;
+	margin-right: 7%;
+	margin-bottom: 5%;
+}
+.sponsors .flexBox img {
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	margin-left: 0%;
+	aspect-ratio: 50/50;
+	margin-top: 1.5%;
+	margin-bottom: 1.5%;
+	border-radius: 50%;
+}
+.sponsors .CLA {
+	background-image: url(images/sponsors/CLA.webp);
+	background-size: 100% 100%;
+}
+.sponsors .homeDepot {
+	height: 230px;
+	background-image: url(images/sponsors/homeDepot.webp);
+	background-size: 100% 100%;
+}
+.sponsors .natorp {
+	height: 230px;
+	background-image: url(images/sponsors/natorp.webp);
+	background-size: 100% 100%;
+}
+.sponsors .lowes {
+	height: 230px;
+	background-image: url(images/sponsors/lowes.webp);
+	background-size: 100% 100%;
+}
+.sponsors .pg {
+	height: 230px;
+	background-image: url(images/sponsors/PG.webp);
+	background-size: 100% 100%;
+}
+.sponsors .walgreens {
+	height: 230px;
+	background-image: url(images/sponsors/walgreens.webp);
+	background-size: 100% 100%;
+}
+.sponsors .kroger {
+	height: 230px;
+	background-image: url(images/sponsors/kroger.webp);
+	background-size: 100% 100%;
+}
+.sponsors .CAM {
+	height: 230px;
+	background-image: url(images/sponsors/CAM.webp);
+	background-size: 100% 100%;
+}
+.sponsors .sichuanBistro {
+	height: 230px;
+	background-image: url(images/sponsors/sichuanBistro.webp);
+	background-size: 100% 100%;
+}
+.sponsors .twinDragon {
+	height: 230px;
+	background-image: url(images/sponsors/twinDragon.webp);
+	background-size: 100% 100%;
+}
+.sponsors .greatTang {
+	height: 230px;
+	background-image: url(images/sponsors/greatTang.webp);
+	background-size: 100% 100%;
+}
+.sponsors {
+	margin-bottom: -2.5%;
+}
+
+
+
+@media only screen and (max-width: 66em) {
+
+}
+
+
+
+@media only screen and (max-width: 45em) {	
+
+}
+
+
