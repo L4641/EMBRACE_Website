@@ -1,6 +1,6 @@
 
 
-// DropDown Nav Script
+// dropdown nav
 let aboutUsHover = false;
 let subNavHover = false;
 
@@ -121,14 +121,14 @@ function automaticSlide() {
 	}
 	slides[slideIndex - 1].style.display = "block";
 	dots[slideIndex - 1].className += " active";
-	setTimeout(automaticSlide, 5000); // Change image every 2 seconds
+	setTimeout(automaticSlide, 5000);
 }
 
 
 
 
 
-// Acronym Script
+// acronym script
 function E() {
   document.getElementById("Empowering").innerHTML = 
   	"<img src='images/Hover_Pics/1_Empowering.jpg' alt='Picture' style='width: 25vw;'>";
@@ -257,39 +257,3 @@ function E2() {
 }
 
 
-
-
-// Sponsors image height script
-
-/*
-
-let GLEVideos = document.getElementsByClassName("GLEVideo");
-let videoWidth = document.getElementById("GLEDiv").style.width;
-let videoHeight = videoWidth;
-
-videoWidth = "400px";
-videoHeight = "300px"
-
-for (let i = 0; i < GLEVideos.length; i++) {
-    GLEVideos[i].style.width = videoWidth;
-    GLEVideos[i].style.height = videoHeight;
-}
-
-
-
-function clickVideo(videoIndex) {
-	let i;
-	let videoLink;
-	let GLEVideos = document.getElementsByClassName("GLEVideo");
-	
-	if (videoIndex > GLEVideos.length) {
-		videoIndex = 1;
-	}    
-	if (videoIndex < 1) {
-		videoIndex = GLEVideos.length;
-	}
-	videoLink = GLEVideos[videoIndex - 1].src;
-	document.getElementByID("largeVideo").src = videoLink;
-}
-
-*/
